@@ -10884,3 +10884,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65704e7c3466a7c4789e90d996d21cf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 2111462357}
+--- !u!95 &2111462357 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7018812140179218417, guid: bc8cff8d393eb604aa70076e4a35982a, type: 3}
+  m_PrefabInstance: {fileID: 2111462351}
+  m_PrefabAsset: {fileID: 0}

@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 40626
+  controlID: 1338
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,18 +95,18 @@ MonoBehaviour:
       y: 21
       width: 861
       height: 375
-    m_Scale: {x: 1.1255087, y: 1.1255087}
-    m_Translation: {x: 430.5, y: 164.15723}
+    m_Scale: {x: 1.1592739, y: 1.1592739}
+    m_Translation: {x: 430.5, y: 167.55197}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -382.4937
-      y: -145.8516
-      width: 764.9874
-      height: 333.18268
+      x: -371.35315
+      y: -144.53183
+      width: 742.7063
+      height: 323.47836
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 861, y: 396}
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 40627
+  controlID: 1339
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -187,13 +187,13 @@ MonoBehaviour:
     height: 500
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 6}
+  m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 6}
   - {fileID: 7}
   - {fileID: 8}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,9 +230,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 296.4046, y: 208.05171, z: -48.152145}
+    m_Target: {x: -0.6136367, y: -1.1354072, z: -1.353719}
     speed: 2
-    m_Value: {x: 296.4046, y: 208.05171, z: -48.152145}
+    m_Value: {x: -0.6136367, y: -1.1354072, z: -1.353719}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -283,9 +283,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 282.6651
+    m_Target: 1.5425532
     speed: 2
-    m_Value: 282.6651
+    m_Value: 1.5425532
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -402,14 +402,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 1
+    - e00: 0.8780951
       e01: 0
       e02: 0
-      e03: 0
+      e03: 51.38189
       e10: 0
-      e11: 1
+      e11: 0.8780951
       e12: 0
-      e13: 0
+      e13: 125.27528
       e20: 0
       e21: 0
       e22: 1
@@ -418,14 +418,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.7510441
+    - e00: 1.115603
       e01: 0
       e02: 0
-      e03: 58.377197
+      e03: -137.56726
       e10: 0
-      e11: 0.7510441
+      e11: 1.115603
       e12: 0
-      e13: 102.65845
+      e13: 40.80433
       e20: 0
       e21: 0
       e22: 1
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 40551
+  controlID: 1405
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -531,7 +531,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9e2fffff3e30ffff4831fffff031ffff9632ffff2238ffff6238ffff3441ffffd44effffac52ffff0854ffff9e65ffffc86fffffda76fffffe8dffffd28effffc692ffffd693ffff0ab6ffff24b6ffffe6cdffff40fbffffea790000ee970000
+      m_ExpandedIDs: e6f9ffff40fbffff7c480000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -619,22 +619,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Pixel Adventure 1/Assets/Animations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 81
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Pixel Adventure 1/Assets/Animations
   m_LastFoldersGridSize: 81
   m_LastProjectPath: C:\Users\DAVE\UnityProyectos\2dPlataformer
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78450000
-    m_LastClickedID: 17784
-    m_ExpandedIDs: 00000000584500005a4500007445000000ca9a3b
+    m_SelectedIDs: 08550000
+    m_LastClickedID: 21768
+    m_ExpandedIDs: 0000000032470000344700004e47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,7 +662,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000584500005a45000000ca9a3b
+    m_ExpandedIDs: 00000000324700003447000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -687,8 +687,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: ee440000
+    m_LastClickedInstanceID: 17646
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006a5800008c48ffff
     m_RenameOverlay:
@@ -714,7 +714,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 240}
     m_GridSize: 81
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 134
@@ -742,7 +742,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 40622
+  controlID: 1456
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -800,7 +800,7 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 17646
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
@@ -825,8 +825,8 @@ MonoBehaviour:
     y: 598
     width: 397
     height: 319
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
